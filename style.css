@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.tela_login{
+    border: 1px solid black;
+    border-radius: 8px;
+    box-shadow: 0 0.1rem 1rem 0.1rem rgb(61, 61, 57);
+    padding: 5rem;
+    text-align: center;
+}
+
+.tela_login input{
+    padding: 5px 5px;
+}
+
+.titulo{
+    text-align: center;
+    color: #395cf7;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.parag{
+    margin-top: 2rem;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.parag a{
+    color: #395cf7;
+    text-decoration: none;
+}
+
+.tela_login div{
+    margin-top: 1rem;
+}
+
+.tela_login button{
+    margin-top: 1rem;
+    padding: 10px 32px;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    background-color: #395cf7;
+    cursor: pointer;
+    
+}
+
+.tela_login button:hover{
+    background-color: #313133;
+    border-color: #395cf7;
+}
